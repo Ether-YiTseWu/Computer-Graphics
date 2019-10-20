@@ -4,9 +4,8 @@ Use OpenGL to make some projects.
 
 ## Course content
 - Introduction
-- Regression
-- Bias and variance
-- Gradient Descent
+- GeoTransform
+- Viewing
 >
 
 ## Project01 : Regression
