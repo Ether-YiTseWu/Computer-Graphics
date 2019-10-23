@@ -14,9 +14,7 @@ Open a window and allow users to draw polygons, lines, curves, and points. Inclu
 >
 - Result :      
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Draw%20Sample(no%20grid).PNG)
->
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Draw%20Sample(grid).PNG)
->
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Pop-up%20Menu.png)
 >
 ## Project02 : A Moving Robot
