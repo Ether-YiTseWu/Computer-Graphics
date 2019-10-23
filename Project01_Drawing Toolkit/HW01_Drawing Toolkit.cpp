@@ -103,7 +103,7 @@ void keyboard(unsigned char key, int x, int y)
 		grid_flag = 1;
 
 	if (key == '1')
-		myColor[0] = myColor[1] = myColor[2] = 1.0, glColor3f(myColor[0], myColor[1], myColor[2]);		 //white
+		myColor[0] = myColor[1] = myColor[2] = 1.0, glColor3f(myColor[0], myColor[1], myColor[2]);       //white
 	if (key == '2')
 		myColor[0] = 1.0, myColor[1] = myColor[2] = 0.0, glColor3f(myColor[0], myColor[1], myColor[2]);  //Red
 	if (key == '3')
@@ -146,7 +146,7 @@ void keyboard(unsigned char key, int x, int y)
 			glVertex3f(2000, j, 0);
 		}
 		glEnd();
-		glColor3f(myColor[0], myColor[1], myColor[2]);    //¬°«O«ù¶}ºô®æ«á¡A½uªºÃC¦â¤´»P¥ı«e³]©wªº¬Û¦P
+		glColor3f(myColor[0], myColor[1], myColor[2]);    //ç‚ºä¿æŒé–‹ç¶²æ ¼å¾Œï¼Œç·šçš„é¡è‰²ä»èˆ‡å…ˆå‰è¨­å®šçš„ç›¸åŒ
 		grid_flag = 0;
 	}
 
@@ -170,9 +170,9 @@ void keyboard(unsigned char key, int x, int y)
 		screen_color_flag = 64, init_window(), init_window(), load_flag = 0;
 	if (key == 'B' || key == 'b')
 		screen_color_flag = 128, init_window(), init_window(), load_flag = 0;
-	if (key == 'C' || key == 'c')						  //²MªÅµe­±¥Î¡A¤@©w­n©ñ¦bif (grid_flag)«á­±¡A§_«h¦³°İÃD
-		glClear(GL_COLOR_BUFFER_BIT), load_flag = 0;      //load_flag = 0 ¬O¨¾¤îLOAD§¹¨Ã§ïÅÜ­I´ºÃC¦â«á¡A¾ó¥ÖÀ¿
-	                                                      //·|¦³ÃC¦â¥X¿ùªºª¬ªpµo¥Í
+	if (key == 'C' || key == 'c')				  //æ¸…ç©ºç•«é¢ç”¨ï¼Œä¸€å®šè¦æ”¾åœ¨if (grid_flag)å¾Œé¢ï¼Œå¦å‰‡æœ‰å•é¡Œ
+		glClear(GL_COLOR_BUFFER_BIT), load_flag = 0;      //load_flag = 0 æ˜¯é˜²æ­¢LOADå®Œä¸¦æ”¹è®ŠèƒŒæ™¯é¡è‰²å¾Œï¼Œæ©¡çš®æ“¦
+	                                                          //æœƒæœ‰é¡è‰²å‡ºéŒ¯çš„ç‹€æ³ç™¼ç”Ÿ
 }
 
 // Procedure to draw a polygon
@@ -190,9 +190,9 @@ void draw_polygon()
 }
 
 // Callback function handling mouse-press events
-void mouse_func(int button, int state, int x, int y)     //X¡BY¬°·Æ¹«²{¦bÂIªº¦ì¸m
+void mouse_func(int button, int state, int x, int y)    //Xã€Yç‚ºæ»‘é¼ ç¾åœ¨é»çš„ä½ç½®
 {
-	if (state == GLUT_UP && obj_type == CURVE)			// §ïµ½µeCURVEªº®É­Ô¡A¦³½u¤@ª½³sµÛªº°İÃD
+	if (state == GLUT_UP && obj_type == CURVE)	// æ”¹å–„ç•«CURVEçš„æ™‚å€™ï¼Œæœ‰ç·šä¸€ç›´é€£è‘—çš„å•é¡Œ
 		first = 0;
 
 	if (button != GLUT_LEFT_BUTTON || state != GLUT_DOWN)
@@ -201,8 +201,8 @@ void mouse_func(int button, int state, int x, int y)     //X¡BY¬°·Æ¹«²{¦bÂIªº¦ì¸
 	switch (obj_type) 
 	{
 	case POINT:
-		glPointSize(pnt_size);      // Define point size
-		glBegin(GL_POINTS);			// Draw a point
+		glPointSize(pnt_size);  // Define point size
+		glBegin(GL_POINTS);	// Draw a point
 		glVertex2f(x, height - y);
 		glEnd();
 		break;
@@ -219,7 +219,7 @@ void mouse_func(int button, int state, int x, int y)     //X¡BY¬°·Æ¹«²{¦bÂIªº¦ì¸
 		else 
 		{
 			first = 0;
-			glLineWidth(line_Width); // Define line width
+			glLineWidth(line_Width);     // Define line width
 			glBegin(GL_LINES);	     // Draw the line
 			glVertex2f(pos_x, height - pos_y);
 			glVertex2f(x, height - y);
@@ -228,56 +228,56 @@ void mouse_func(int button, int state, int x, int y)     //X¡BY¬°·Æ¹«²{¦bÂIªº¦ì¸
 		break;
 	case POLYGON:				     // Define vertices of poly
 		glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-		if (side == 0)               // side = 0¬°USERÂI¶iPOL«áµo¥Íªº¨Æ±¡
+		if (side == 0)                       // side = 0ç‚ºUSERé»é€²POLå¾Œç™¼ç”Ÿçš„äº‹æƒ…
 		{
-			vertex[side][0] = x; vertex[side][1] = y;   // §â²Ä¤@­ÓÂI®y¼Ğ°O¿ı¤U¨Ó¡A¤§«áªºÂIÀ»¤~·|¦³ªF¦è¥X¨Ó
+			vertex[side][0] = x; vertex[side][1] = y;   // æŠŠç¬¬ä¸€å€‹é»åº§æ¨™è¨˜éŒ„ä¸‹ä¾†ï¼Œä¹‹å¾Œçš„é»æ“Šæ‰æœƒæœ‰æ±è¥¿å‡ºä¾†
 			side++;
 		}
 		else 
 		{
-			if (fabs(vertex[side - 1][0] - x) + fabs(vertex[side - 1][1] - y) < 2) // ¦pªG¬ö¿ıªº¨âÂI¶ZÂ÷¹Lªñ(ÂI¨â¤U)
+			if (fabs(vertex[side - 1][0] - x) + fabs(vertex[side - 1][1] - y) < 2) // å¦‚æœç´€éŒ„çš„å…©é»è·é›¢éè¿‘(é»å…©ä¸‹)
 			{
-				glLineWidth(line_Width); // Define line width
-				draw_polygon();			 // §â¥ı«e¬ö¿ıªºÂI§@¬°POLYGONªº¦UÂI¡A©ó¬O¥ı«eµeªºª½½u¥u¬Oµ¹USER¤è«K¬İªº¦Ó¤w
-										 // ¥Î³o­ÓFUNCTION«á¡A¥ı«eªºª½½u·|®ø¥¢
+				glLineWidth(line_Width);        // Define line width
+				draw_polygon();			// æŠŠå…ˆå‰ç´€éŒ„çš„é»ä½œç‚ºPOLYGONçš„å„é»ï¼Œæ–¼æ˜¯å…ˆå‰ç•«çš„ç›´ç·šåªæ˜¯çµ¦USERæ–¹ä¾¿çœ‹çš„è€Œå·²
+								// ç”¨é€™å€‹FUNCTIONå¾Œï¼Œå…ˆå‰çš„ç›´ç·šæœƒæ¶ˆå¤±
 			}
 			else 
 			{
 				glLineWidth(line_Width); // Define line width
 				glBegin(GL_LINES);
-				glVertex2f(vertex[side - 1][0], height - vertex[side - 1][1]);  //¤W¤@­Ó¬ö¿ıªºÂI
-				glVertex2f(x, height - y);	                                    //·Æ¹«­èÂIªº¦ì¸m
+				glVertex2f(vertex[side - 1][0], height - vertex[side - 1][1]);  //ä¸Šä¸€å€‹ç´€éŒ„çš„é»
+				glVertex2f(x, height - y);	                                //æ»‘é¼ å‰›é»çš„ä½ç½®
 				glEnd();
-				vertex[side][0] = x;   // ¬ö¿ı·Æ¹«­èÂIªº¦ì¸m
-				vertex[side][1] = y;   // ¬ö¿ı·Æ¹«­èÂIªº¦ì¸m¡C¦p¦¹¡A¥i¥H¹F¦¨½u·|ºøºø¤£µ´³sµÛªº·PÄ±
+				vertex[side][0] = x;   // ç´€éŒ„æ»‘é¼ å‰›é»çš„ä½ç½®
+				vertex[side][1] = y;   // ç´€éŒ„æ»‘é¼ å‰›é»çš„ä½ç½®ã€‚å¦‚æ­¤ï¼Œå¯ä»¥é”æˆç·šæœƒç¶¿ç¶¿ä¸çµ•é€£è‘—çš„æ„Ÿè¦º
 				side++;
 			}
 		}
 		break;
 	case POLYGON_LINE:				     // Define vertices of poly
 		glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-		if (side == 0)               // side = 0¬°USERÂI¶iPOL«áµo¥Íªº¨Æ±¡
+		if (side == 0)               // side = 0ç‚ºUSERé»é€²POLå¾Œç™¼ç”Ÿçš„äº‹æƒ…
 		{
-			vertex[side][0] = x; vertex[side][1] = y;   // §â²Ä¤@­ÓÂI®y¼Ğ°O¿ı¤U¨Ó¡A¤§«áªºÂIÀ»¤~·|¦³ªF¦è¥X¨Ó
+			vertex[side][0] = x; vertex[side][1] = y;   // æŠŠç¬¬ä¸€å€‹é»åº§æ¨™è¨˜éŒ„ä¸‹ä¾†ï¼Œä¹‹å¾Œçš„é»æ“Šæ‰æœƒæœ‰æ±è¥¿å‡ºä¾†
 			side++;
 		}
 		else
 		{
-			if (fabs(vertex[side - 1][0] - x) + fabs(vertex[side - 1][1] - y) < 2) // ¦pªG¬ö¿ıªº¨âÂI¶ZÂ÷¹Lªñ(ÂI¨â¤U)
+			if (fabs(vertex[side - 1][0] - x) + fabs(vertex[side - 1][1] - y) < 2) // å¦‚æœç´€éŒ„çš„å…©é»è·é›¢éè¿‘(é»å…©ä¸‹)
 			{
-				glLineWidth(line_Width); // Define line width
-				draw_polygon();			 // §â¥ı«e¬ö¿ıªºÂI§@¬°POLYGONªº¦UÂI¡A©ó¬O¥ı«eµeªºª½½u¥u¬Oµ¹USER¤è«K¬İªº¦Ó¤w
-										 // ¥Î³o­ÓFUNCTION«á¡A¥ı«eªºª½½u·|®ø¥¢
+				glLineWidth(line_Width);// Define line width
+				draw_polygon();		// æŠŠå…ˆå‰ç´€éŒ„çš„é»ä½œç‚ºPOLYGONçš„å„é»ï¼Œæ–¼æ˜¯å…ˆå‰ç•«çš„ç›´ç·šåªæ˜¯çµ¦USERæ–¹ä¾¿çœ‹çš„è€Œå·²
+							// ç”¨é€™å€‹FUNCTIONå¾Œï¼Œå…ˆå‰çš„ç›´ç·šæœƒæ¶ˆå¤±
 			}
 			else
 			{
 				glLineWidth(line_Width); // Define line width
 				glBegin(GL_LINES);
-				glVertex2f(vertex[side - 1][0], height - vertex[side - 1][1]);  //¤W¤@­Ó¬ö¿ıªºÂI
-				glVertex2f(x, height - y);	                                    //·Æ¹«­èÂIªº¦ì¸m
+				glVertex2f(vertex[side - 1][0], height - vertex[side - 1][1]);  //ä¸Šä¸€å€‹ç´€éŒ„çš„é»
+				glVertex2f(x, height - y);	                                //æ»‘é¼ å‰›é»çš„ä½ç½®
 				glEnd();
-				vertex[side][0] = x;   // ¬ö¿ı·Æ¹«­èÂIªº¦ì¸m
-				vertex[side][1] = y;   // ¬ö¿ı·Æ¹«­èÂIªº¦ì¸m¡C¦p¦¹¡A¥i¥H¹F¦¨½u·|ºøºø¤£µ´³sµÛªº·PÄ±
+				vertex[side][0] = x;   // ç´€éŒ„æ»‘é¼ å‰›é»çš„ä½ç½®
+				vertex[side][1] = y;   // ç´€éŒ„æ»‘é¼ å‰›é»çš„ä½ç½®ã€‚å¦‚æ­¤ï¼Œå¯ä»¥é”æˆç·šæœƒç¶¿ç¶¿ä¸çµ•é€£è‘—çš„æ„Ÿè¦º
 				side++;
 			}
 		}
@@ -296,7 +296,7 @@ void mouse_func(int button, int state, int x, int y)     //X¡BY¬°·Æ¹«²{¦bÂIªº¦ì¸
 			glColor3f(0.0, 0.0, 0.0);
 
 		glPointSize(10);      // Define point size
-		glBegin(GL_POINTS);			// Draw a point
+		glBegin(GL_POINTS);   // Draw a point
 		glVertex2f(x, height - y);
 		glEnd();
 
@@ -411,7 +411,7 @@ void file_func(int file_type)
 			glVertex3f(2000, j, 0);
 		}
 		glEnd();
-		glColor3f(myColor[0], myColor[1], myColor[2]);    //¬°«O«ù¶}ºô®æ«á¡A½uªºÃC¦â¤´»P¥ı«e³]©wªº¬Û¦P
+		glColor3f(myColor[0], myColor[1], myColor[2]);    //ç‚ºä¿æŒé–‹ç¶²æ ¼å¾Œï¼Œç·šçš„é¡è‰²ä»èˆ‡å…ˆå‰è¨­å®šçš„ç›¸åŒ
 	}
 	else if (file_type == MY_BACKGROUND_BlACK )
 		screen_color_flag = 64, init_window(), init_window(), load_flag = 0;
@@ -480,7 +480,7 @@ void main(int argc, char** argv)
 {
 	int  size_m, lineWidth_m, top_m, color_m, file_m, type_m, quit_m = 1;
 
-	glutInit(&argc, argv);							//---Make connection with server---
+	glutInit(&argc, argv);						//---Make connection with server---
 
 	glutInitWindowPosition(300, 150);				//---Specify window position ---
 	glutInitWindowSize(width, height);				//--Define window's height and width--
@@ -493,8 +493,8 @@ void main(int argc, char** argv)
 
 	glutDisplayFunc(display_func);	// Associate display event callback func
 	glutReshapeFunc(my_reshape);	// Associate reshape event callback func
-	glutKeyboardFunc(keyboard);		// Callback func for keyboard event 
-	glutMouseFunc(mouse_func);		// Mouse Button Callback func
+	glutKeyboardFunc(keyboard);	// Callback func for keyboard event 
+	glutMouseFunc(mouse_func);	// Mouse Button Callback func
 	glutMotionFunc(motion_func);	// Mouse motion event callback func
 
 	color_m = glutCreateMenu(color_func);	// Create color-menu
@@ -507,7 +507,7 @@ void main(int argc, char** argv)
 	glutAddMenuEntry("Cyan", CYAN);
 
 	type_m = glutCreateMenu(draw_type);     // Create draw-type menu
-	glutAddMenuEntry("Point", POINT);		// Switch case0 : POINT, case1 : LINE ........
+	glutAddMenuEntry("Point", POINT);	// Switch case0 : POINT, case1 : LINE ........
 	glutAddMenuEntry("Line", LINE);
 	glutAddMenuEntry("Curve", CURVE);
 	glutAddMenuEntry("Polygon(Fill)", POLYGON);
@@ -550,12 +550,12 @@ void main(int argc, char** argv)
 	glutAddMenuEntry("Quit", MY_QUIT); 
 
 	top_m = glutCreateMenu(top_menu_func);	// Create top menu
-	glutAddSubMenu("Colors", color_m);		// add color-menu as a sub-menu
+	glutAddSubMenu("Colors", color_m);	// add color-menu as a sub-menu
 	glutAddSubMenu("Draw Type", type_m);
 	glutAddSubMenu("Point Size", size_m);
 	glutAddSubMenu("Line Width", lineWidth_m);
 	glutAddSubMenu("Screen Option", file_m);	// add file-menu as a sub-menu
-	glutAttachMenu(GLUT_RIGHT_BUTTON);			// associate top-menu with right button
+	glutAttachMenu(GLUT_RIGHT_BUTTON);		// associate top-menu with right button
 
 	//---Test whether overlay support is available --
 
