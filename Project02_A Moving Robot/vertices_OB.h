@@ -1,6 +1,6 @@
 # pragma once
 
-// Declare car position, orientation
+// Declare robot position, orientation
 float  self_ang = -90.0, swing_ang = 0.0, knee_ang_small = 0.0, knee_ang_big = 0.0, glob_ang = 0.0;
 float  position[3] = { -20.0, 0.0, 10.0 };
 float  PI = 3.141592653;
