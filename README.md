@@ -18,3 +18,9 @@ Open a window and allow users to draw polygons, lines, curves, and points. Inclu
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Pop-up%20Menu.png)
 >
 ## Project02 : A Moving Robot
+- Goal :       
+Design a robot with a head, a torso, two arms, and two legs. This robot has the ability that swins his arms, walkes around, makes turns, jumps and kneel down, and makes some gestures.
+>
+- Result :      
+![](https://github.com/tailer954/Computer-Graphics/blob/master/Project02_A%20Moving%20Robot/Scene%20Graph.PNG)
+>
