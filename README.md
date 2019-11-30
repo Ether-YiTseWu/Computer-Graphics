@@ -26,3 +26,8 @@ Design a robot with a head, a torso, two arms, and two legs. This robot has the 
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project02_A%20Moving%20Robot/A%20Moving%20Robot.PNG)
 >
 ## Project03 : Viewing and Projection
+- Goal :       
+
+>
+- Result :      
+![](https://github.com/tailer954/Computer-Graphics/blob/master/Project03_Viewing%20and%20Projection/Robot%20Projection.PNG)
