@@ -31,3 +31,10 @@ Use the scene and robots of project02, design and implement a program that can c
 >
 - Result :      
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project03_Viewing%20and%20Projection/Robot%20Projection.PNG)
+
+## Project04 : Lighting & Shading
+- Goal :       
+
+>
+- Result :      
+![](https://github.com/tailer954/Computer-Graphics/blob/master/Project04_Lighting%20%26%20Shading/Robot%20Shading.PNG)
