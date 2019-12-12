@@ -27,7 +27,7 @@ Design a robot with a head, a torso, two arms, and two legs. This robot has the 
 >
 ## Project03 : Viewing and Projection
 - Goal :       
-
+Use the scene and robots of project02, design and implement a program that can change view and different projection, like perspective and orthographical projection.
 >
 - Result :      
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project03_Viewing%20and%20Projection/Robot%20Projection.PNG)
