@@ -15,11 +15,11 @@ Use OpenGL to make some projects.
 - Goal :       
 Open a window and allow users to draw polygons, lines, curves, and points. Include pop-up menus, display, reshape, keyboard, and motion events in program. What's more, this program can let users change attributes by input devices, like keyboard and mouse. [Download URL](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Drawing%20Toolkit.exe)
 >
-- Manual :       
-不 | 漂亮 | 的文字    
---- | --- | ---      
-*依然* | `渲染的` | **很好**      
-1 | 2 | 3    
+- Manual :         
+| First Header  | Second Header |    
+| ------------- | ------------- |     
+| Content Cell  | Content Cell  |      
+| Content Cell  | Content Cell  |     
 >
 - Result :      
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Draw%20Sample(no%20grid).PNG)
