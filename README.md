@@ -17,9 +17,13 @@ Open a window and allow users to draw polygons, lines, curves, and points. Inclu
 >   
 - Manual :   
 >
-| Keyboard | Function | Keyboard | Function | Keyboard | Function | Keyboard | Function | Keyboard | Function |
-|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-|'1'       |White     |'2'       |Red       |'3'       |Green     |'4'       |Blue      |'5'       |Yellow     |
+| Keyboard | Function | Keyboard | Function | Keyboard | Function | Keyboard | Function |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|`1`       |White     |`2`       |Red       |`3`       |Green     |`4`       |Blue      |
+
+| Keyboard | Function | Keyboard | Function | Keyboard | Function | Keyboard | Function |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|`5`       |Yellow    |`6`       |Purple    |`7`       |Cyan      |`W/w`     |Point     |
 >
 - Result :      
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Draw%20Sample(no%20grid).PNG)
