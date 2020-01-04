@@ -1,5 +1,6 @@
 # Computer-Graphics
-Use OpenGL to make some projects.
+## Overview
+Use OpenGL to make some projects. In the Manual, 'Func' means 'Function', 'Poly' means 'Polygon'.
 >
 
 ## Course content
@@ -17,13 +18,13 @@ Open a window and allow users to draw polygons, lines, curves, and points. Inclu
 >   
 - Manual :   
 >
-| Key      | Function | Key      | Function | Key      | Function | Key      | Function | Key      | Function |Key      | Function |
+| Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     |Key       | Func     |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-|`1`       |White     |`2`       |Red       |`3`       |Green     |`4`       |Blue      |`4`       |Blue      |`4`       |Blue      |
+|`1`       |White     |`2`       |Red       |`3`       |Green     |`4`       |Blue      |`5`       |Yellow    |`6`       |Purple    |
 
-| Key      | Function | Key      | Function | Key      | Function | Key      | Function |
-|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-|`5`       |Yellow    |`6`       |Purple    |`7`       |Cyan      |`W/w`     |Point     |
+| Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|`7`       |Cyan      |`W/w`     |Point     |`E/e`     |Line      |`R/r`     |Curve     |`T/t`     |Poly(FILL)|`Y/y`     |Poly(GRID)|
 >
 - Result :      
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Draw%20Sample(no%20grid).PNG)
