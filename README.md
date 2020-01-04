@@ -18,10 +18,8 @@ Open a window and allow users to draw polygons, lines, curves, and points. Inclu
 - Manual :   
 >
 | Keyboard | Function | Keyboard | Function | Keyboard | Function | Keyboard | Function | Keyboard | Function |
-| ------------- |:-------------:| -----:||:-------------:| -----:||:-------------:| -----:||:-------------:| -----:| -----:|
-| 第三欄        | 靠右對齊      | $1600 |
-| 第二欄        | 置中對齊      |   $12 |
-| 斑馬條紋      | 是整齊的      |    $1 |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|'1'       |White     |'2'       |Red       |'3'       |Green     |'4'       |Blue      |'5'       |Yellow     |
 >
 - Result :      
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Draw%20Sample(no%20grid).PNG)
