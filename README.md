@@ -1,6 +1,6 @@
 # Computer-Graphics
 ## Overview
-Use OpenGL to make some projects. In the Manual, 'Func' means 'Function', 'Poly' means 'Polygon'.
+Use OpenGL to make some projects. In the Manual, 'Func' means 'Function', 'Poly' means 'Polygon', 'BG' means 'Background.
 >
 
 ## Course content
@@ -21,10 +21,16 @@ Open a window and allow users to draw polygons, lines, curves, and points. Inclu
 | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     |Key       | Func     |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 |`1`       |White     |`2`       |Red       |`3`       |Green     |`4`       |Blue      |`5`       |Yellow    |`6`       |Purple    |
-
 | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-|`7`       |Cyan      |`W/w`     |Point     |`E/e`     |Line      |`R/r`     |Curve     |`T/t`     |Poly(FILL)|`Y/y`     |Poly(GRID)|
+|`7`       |Cyan      |`W/w`     |Point     |`E/e`     |Line      |`R/r`     |Curve     |`T/t`     |Poly(fill)|`Y/y`     |Poly(grid)|
+| Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|`U/u`     |Eraser    |`Q/q`     |Quit      |`G/g`     |Grid      |`C/c`     |Clear     |`V/v`     |BG Black  |`Y/y`     |BG White  |
+| Key      | Func     | Key      | Func     |
+|:--------:|:--------:|:--------:|:--------:|
+|`S/s`     |Save      |`L/l`     |Load      |
+
 >
 - Result :      
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Draw%20Sample(no%20grid).PNG)
