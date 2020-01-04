@@ -17,9 +17,9 @@ Open a window and allow users to draw polygons, lines, curves, and points. Inclu
 >   
 - Manual :   
 >
-| Key      | Function | Key      | Function | Key      | Function | Key      | Function | Key      | Function |
-|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-|`1`       |White     |`2`       |Red       |`3`       |Green     |`4`       |Blue      |`4`       |Blue      |
+| Key      | Function | Key      | Function | Key      | Function | Key      | Function | Key      | Function |Key      | Function |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|`1`       |White     |`2`       |Red       |`3`       |Green     |`4`       |Blue      |`4`       |Blue      |`4`       |Blue      |
 
 | Key      | Function | Key      | Function | Key      | Function | Key      | Function |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
