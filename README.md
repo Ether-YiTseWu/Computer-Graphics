@@ -13,10 +13,10 @@ Use OpenGL to make some projects. In the Manual, 'Func' means 'Function', 'Poly'
 >
 
 ## Project01 : Drawing Toolkit
-- Goal :       
+### Goal :       
 Open a window and allow users to draw polygons, lines, curves, and points. Include pop-up menus, display, reshape, keyboard, and motion events in program. What's more, this program can let users change attributes by input devices, like keyboard and mouse. [Download URL](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Drawing%20Toolkit.exe)
 >   
-- Manual :   
+### Manual :   
 >
 | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     | Key      | Func     |Key       | Func     |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -26,7 +26,7 @@ Open a window and allow users to draw polygons, lines, curves, and points. Inclu
 |`S/s`     |Save      |`L/l`     |Load      |
 
 >
-- Result :      
+### Result :      
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Draw%20Sample(no%20grid).PNG)
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Draw%20Sample(grid).PNG)
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project01_Drawing%20Toolkit/Pop-up%20Menu.png)
