@@ -60,3 +60,13 @@ Add light sources to project03, including parallel light, spot light, and point 
 >
 ### Result :      
 ![](https://github.com/tailer954/Computer-Graphics/blob/master/Project04_Lighting%20%26%20Shading/Robot%20Shading.PNG)
+
+## Project05 : Texture Mapping, Billboards & Fog Effects
+### Goal :       
+
+>
+### Manual :       
+
+>
+### Result :      
+![](https://github.com/tailer954/Computer-Graphics/blob/master/Project05_Texture%20Mapping%2C%20Billboards%20%26%20Fog%20Effects/Robot%20Texture%2C%20BillBoards%20and%20Fog.png)
