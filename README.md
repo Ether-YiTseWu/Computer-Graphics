@@ -63,7 +63,7 @@ Add light sources to project03, including parallel light, spot light, and point 
 
 ## Project05 : Texture Mapping, Billboards & Fog Effects
 ### Goal :       
-
+Apply texture mapping, add many billboards to enrich the scene, and add foggy effect to generate depth cue in the scene. [Download URL](https://github.com/tailer954/Computer-Graphics/blob/master/Project05_Texture%20Mapping%2C%20Billboards%20%26%20Fog%20Effects/Texture.exe)
 >
 ### Manual :       
 
