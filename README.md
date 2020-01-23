@@ -1,6 +1,6 @@
 # Computer-Graphics
 ## Overview
-Use OpenGL to make some projects. In the Manual, 'Func' means 'Function', 'Poly' means 'Polygon', 'BG' means 'Background'.
+Use OpenGL to make some projects. In the Manual, 'Func' means 'Function', 'Poly' means 'Polygon', 'BG' means 'Background', 'RM' means 'Right Mouse Button', 'LM' means 'Left Mouse Button'.
 >
 
 ## Course content
@@ -23,7 +23,7 @@ Open a window and allow users to draw polygons, lines, curves, and points. Inclu
 |`1`       |White     |`2`       |Red       |`3`       |Green     |`4`       |Blue      |`5`       |Yellow    |`6`       |Purple    |
 |`7`       |Cyan      |`W/w`     |Point     |`E/e`     |Line      |`R/r`     |Curve     |`T/t`     |Poly(fill)|`Y/y`     |Poly(grid)|
 |`U/u`     |Eraser    |`Q/q`     |Quit      |`G/g`     |Grid      |`C/c`     |Clear     |`V/v`     |BG Black  |`Y/y`     |BG White  |
-|`S/s`     |Save      |`L/l`     |Load      |
+|`S/s`     |Save      |`L/l`     |Load      |`RM`      |Menu Open |`LM`      |determine |
 
 >
 ### Result :      
