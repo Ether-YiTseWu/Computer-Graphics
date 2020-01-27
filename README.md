@@ -3,13 +3,12 @@
 Use OpenGL to make some projects. In the Manual, 'Func' means 'Function', 'Poly' means 'Polygon', 'BG' means 'Background', 'RM' means 'Right Mouse Button', 'LM' means 'Left Mouse Button'.
 >
 
-## Course content
-- Introduction
-- GeoTransform
-- Viewing
-- Shade
-- Texture
-- Fog
+## Project List
+- Project01 : Drawing Toolkit
+- Project02 : A Moving Robot
+- Project03 : Viewing and Projection
+- Project04 : Lighting & Shading
+- Project05 : Texture Mapping, Billboards & Fog Effects
 >
 
 ## Project01 : Drawing Toolkit
